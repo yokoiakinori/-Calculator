@@ -1,0 +1,72 @@
+body{
+	width: 180px;
+}
+
+#resultForm{
+	width: 100%;
+	height: 50px;
+	background-color: #555;
+	color: #CCC; 
+	font-size: 14pt;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	margin:0; 
+}
+
+.keyof{
+	display: flex;
+	margin: 0;
+	width: 100%;
+	height: 200px;
+}
+	.keyofleftside{
+		display: flex;
+		width: 70%;
+		flex-direction: column;
+	}
+		.keyofOther{
+			display: flex;
+			flex-direction: row;
+			background-color: #AAA;
+			width: 100%;
+			height: 20%;
+		}
+			.keyofOther input{
+					font-size: 14pt;
+					border: none;
+					width: 33%;
+					color: #999;
+			}
+		.keyofNumber{
+			display: flex;
+			flex-wrap: wrap;
+			height: 80%;
+			justify-content: space-between;
+		}
+			.keyofNumber input{
+				font-size: 14pt;
+				border: none;
+				width: 33%;
+				height: 25%;
+				background-color: #fff;
+				color: #999;
+			}
+			#zero{
+				width: 65%;
+			}
+	#keyofCalculation{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 30%;
+		height: 100%;
+		margin: 0;
+	}
+		#keyofCalculation input{
+			font-size: 14pt;
+				border: none;
+				height: 20%;
+				background-color: #FF8800;
+				color: #FFF;
+		}
